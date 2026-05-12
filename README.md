@@ -1,9 +1,9 @@
-# Paradise Nursery by Rayen Haggui
+# e-plantShopping by Rayen Haggui
 
-**Paradise Nursery** is a React-based houseplant shopping application built as the final project for the IBM Full-Stack JavaScript Developer Professional Certificate (React Framework course).
+**e-plantShopping** is a React-based houseplant shopping application built as the final project for the IBM Full-Stack JavaScript Developer Professional Certificate (React Framework course).
 
 ## Project Name
-Paradise Nursery - A houseplant e-commerce front-end application
+e-plantShopping - A houseplant e-commerce front-end application
 
 ## Features
 
