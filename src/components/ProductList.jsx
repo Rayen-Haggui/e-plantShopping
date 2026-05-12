@@ -5,10 +5,10 @@ import { addItem } from '../store/CartSlice';
 
 const categories = [
   {
-    name: 'Tropical Plants',
+    name: 'Tropical',
     plants: [
       {
-        name: 'Monstera Deliciosa',
+        name: 'Split-Leaf Monstera',
         price: 29.99,
         image: 'https://images.unsplash.com/photo-1614594975525-e45190c55d0b?w=400&auto=format&fit=crop',
       },
@@ -23,17 +23,17 @@ const categories = [
         image: 'https://images.unsplash.com/photo-1636767653614-1af9db5cec3c?w=400&auto=format&fit=crop',
       },
       {
-        name: 'Peace Lily',
+        name: 'White Peace Lily',
         price: 22.99,
         image: 'https://images.unsplash.com/photo-1593482892537-5a7e8e79def2?w=400&auto=format&fit=crop',
       },
       {
-        name: 'Anthurium',
+        name: 'Red Anthurium',
         price: 34.99,
         image: 'https://images.unsplash.com/photo-1620127252536-03bdfcb9d12f?w=400&auto=format&fit=crop',
       },
       {
-        name: 'Calathea Orbifolia',
+        name: 'Orbifolia Calathea',
         price: 27.99,
         image: 'https://images.unsplash.com/photo-1616500130658-be97ae0ff69a?w=400&auto=format&fit=crop',
       },
@@ -43,7 +43,7 @@ const categories = [
     name: 'Succulents & Cacti',
     plants: [
       {
-        name: 'Echeveria Elegans',
+        name: 'White Mexican Rose',
         price: 8.99,
         image: 'https://images.unsplash.com/photo-1509423350716-97f9360b4e09?w=400&auto=format&fit=crop',
       },
@@ -58,12 +58,12 @@ const categories = [
         image: 'https://images.unsplash.com/photo-1637596879980-38c27bbcbeef?w=400&auto=format&fit=crop',
       },
       {
-        name: 'Barrel Cactus',
+        name: 'Golden Barrel Cactus',
         price: 11.99,
         image: 'https://images.unsplash.com/photo-1559181567-c3190ca9d8da?w=400&auto=format&fit=crop',
       },
       {
-        name: 'Haworthia Zebra',
+        name: 'Zebra Cactus',
         price: 9.99,
         image: 'https://images.unsplash.com/photo-1601442463255-b6c8e0e68f97?w=400&auto=format&fit=crop',
       },
@@ -75,20 +75,20 @@ const categories = [
     ],
   },
   {
-    name: 'Air-Purifying Plants',
+    name: 'Air-Purifying',
     plants: [
       {
-        name: 'Snake Plant',
+        name: "Mother-in-Law's Tongue",
         price: 19.99,
         image: 'https://images.unsplash.com/photo-1593691509543-c55fb32d8de5?w=400&auto=format&fit=crop',
       },
       {
-        name: 'Spider Plant',
+        name: 'Ribbon Plant',
         price: 13.99,
         image: 'https://images.unsplash.com/photo-1637943316218-f77a8fc7c4e5?w=400&auto=format&fit=crop',
       },
       {
-        name: 'Pothos Golden',
+        name: 'Golden Pothos',
         price: 11.99,
         image: 'https://images.unsplash.com/photo-1598880940080-ff9a29891b85?w=400&auto=format&fit=crop',
       },
@@ -117,7 +117,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <Link to="/" className="navbar-brand">🌿 Paradise Nursery</Link>
+      <Link to="/" className="navbar-brand">Paradise Nursery</Link>
       <div className="navbar-links">
         <Link to="/">Home</Link>
         <Link to="/plants">Plants</Link>
@@ -150,7 +150,7 @@ function PlantCard({ plant }) {
           onClick={handleAdd}
           disabled={isInCart}
         >
-          {isInCart ? 'Added to Cart' : 'Add to Cart'}
+          {isInCart ? 'In Cart' : 'Add to Cart'}
         </button>
       </div>
     </div>
@@ -161,7 +161,7 @@ function ProductList() {
   return (
     <div className="product-page">
       <Navbar />
-      <h2>Our Plants</h2>
+      <h2>Shop All Plants</h2>
       {categories.map(category => (
         <div key={category.name} className="category-section">
           <h3 className="category-title">{category.name}</h3>

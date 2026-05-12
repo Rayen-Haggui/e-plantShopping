@@ -9,7 +9,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <Link to="/" className="navbar-brand">🌿 Paradise Nursery</Link>
+      <Link to="/" className="navbar-brand">Paradise Nursery</Link>
       <div className="navbar-links">
         <Link to="/">Home</Link>
         <Link to="/plants">Plants</Link>
@@ -46,7 +46,7 @@ function CartItem() {
   };
 
   const handleCheckout = () => {
-    alert('Coming Soon! Thank you for shopping at Paradise Nursery 🌿');
+    alert('Checkout coming soon — thanks for shopping with us!');
   };
 
   return (
