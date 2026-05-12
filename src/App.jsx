@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { HashRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
 import ProductList from './components/ProductList';
 import CartItem from './components/CartItem';
@@ -6,13 +6,20 @@ import AboutUs from './components/AboutUs';
 import './App.css';
 
 function LandingPage() {
+  const [showShopping, setShowShopping] = useState(false);
   const navigate = useNavigate();
+
+  const handleGetStarted = () => {
+    setShowShopping(true);
+    navigate('/plants');
+  };
+
   return (
-    <div className="landing-page">
+    <div className="landing-page background-image">
       <div className="landing-overlay">
-        <h1 className="company-name">e-plantShopping</h1>
+        <h1 className="company-name">Paradise Nursery</h1>
         <AboutUs />
-        <button className="get-started-btn" onClick={() => navigate('/plants')}>
+        <button className="get-started-btn" onClick={handleGetStarted}>
           Get Started
         </button>
       </div>
