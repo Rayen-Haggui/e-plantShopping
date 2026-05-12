@@ -25,12 +25,12 @@ const categories = [
       {
         name: 'White Peace Lily',
         price: 22.99,
-        image: 'https://images.unsplash.com/photo-1593482892537-5a7e8e79def2?w=400&fit=crop&auto=format',
+        image: 'https://images.unsplash.com/white-and-yellow-flower-in-close-up-photography-2y8kIVvvC0w',
       },
       {
         name: 'Red Anthurium',
         price: 34.99,
-        image: 'https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=400&fit=crop&auto=format',
+        image: 'https://images.unsplash.com/red-hibiscus-in-bloom-during-daytime-T8vaIfQDEWQ',
       },
       {
         name: 'Orbifolia Calathea',
@@ -55,7 +55,7 @@ const categories = [
       {
         name: 'Jade Plant',
         price: 14.99,
-        image: 'https://images.unsplash.com/photo-1518335935020-cfd72b933c1d?w=400&fit=crop&auto=format',
+        image: 'https://images.unsplash.com/green-plant-on-white-ceramic-pot-Q0w0LGkHokE',
       },
       {
         name: 'Golden Barrel Cactus',
@@ -65,7 +65,7 @@ const categories = [
       {
         name: 'Zebra Cactus',
         price: 9.99,
-        image: 'https://images.unsplash.com/photo-1559181567-c3190ca9d8da?w=400&fit=crop&auto=format',
+        image: 'https://images.unsplash.com/a-couple-of-plants-that-are-in-a-pot-2RwabO5J-_E',
       },
       {
         name: 'String of Pearls',
@@ -85,17 +85,17 @@ const categories = [
       {
         name: 'Ribbon Plant',
         price: 13.99,
-        image: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&fit=crop&auto=format',
+        image: 'https://images.unsplash.com/lucky-bamboo-plants-in-glass-vases-with-red-ties-YxYt71A7RqI',
       },
       {
         name: 'Golden Pothos',
         price: 11.99,
-        image: 'https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&fit=crop&auto=format',
+        image: 'https://images.unsplash.com/a-potted-plant-hanging-from-a-wooden-shelf-znhiWxyKDW0',
       },
       {
         name: 'ZZ Plant',
         price: 24.99,
-        image: 'https://images.unsplash.com/photo-1599598425947-5202edd56fde?w=400&fit=crop&auto=format',
+        image: 'https://images.unsplash.com/a-plant-with-large-green-leaves-in-front-of-a-pink-wall-kbtSCgsD7AY',
       },
       {
         name: 'Boston Fern',
@@ -105,7 +105,7 @@ const categories = [
       {
         name: 'English Ivy',
         price: 10.99,
-        image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&fit=crop&auto=format',
+        image: 'https://images.unsplash.com/green-and-brown-brick-wall-YyPn9IfH__M',
       },
     ],
   },
