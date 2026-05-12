@@ -46,7 +46,7 @@ function CartItem() {
   };
 
   const handleCheckout = () => {
-    alert('Checkout coming soon — thanks for shopping with us!');
+    alert('Checkout coming soon. Thanks for shopping with us!');
   };
 
   return (

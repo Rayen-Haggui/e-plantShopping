@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
 import ProductList from './components/ProductList';
 import CartItem from './components/CartItem';
 import AboutUs from './components/AboutUs';
@@ -22,7 +22,7 @@ function LandingPage() {
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/plants" element={<ProductList />} />
