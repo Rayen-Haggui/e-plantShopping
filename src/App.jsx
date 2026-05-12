@@ -10,7 +10,7 @@ function LandingPage() {
   return (
     <div className="landing-page">
       <div className="landing-overlay">
-        <h1 className="company-name">Paradise Nursery</h1>
+        <h1 className="company-name">e-plantShopping</h1>
         <AboutUs />
         <button className="get-started-btn" onClick={() => navigate('/plants')}>
           Get Started
